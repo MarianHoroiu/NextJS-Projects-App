@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-const Card = ({ className, children }) => {
+const Card = ({ className = "", children }) => {
   return (
     <div
       className={clsx(
